@@ -9,3 +9,7 @@ form {
   display: inline grid;
   gap: 10px;
 }
+
+[name="username"] {
+  text-transform: lowercase;
+}

@@ -10,14 +10,14 @@
   <!--<link rel="stylesheet" href="base.css">-->
   <link rel="stylesheet" href="style.css">
   <!--<script type="module" src="app.js"></script>-->
-  <!--<script src="script.js" defer></script>-->
+  <script src="account.js" defer></script>
 
   <title>User Account</title>
 </head>
 
-<body id="body">
-  <h1>Welcome, <output>{username}</output></h1>
-  <button onclick="location.href='index.html'">Log Out</button>
+<body id="body" hidden>
+  <h1>Welcome, <output id="username">{username}</output></h1>
+  <button id="log-out">Log Out</button>
 </body>
 
 </html>

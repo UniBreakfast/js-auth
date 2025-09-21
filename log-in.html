@@ -10,17 +10,17 @@
   <!--<link rel="stylesheet" href="base.css">-->
   <link rel="stylesheet" href="style.css">
   <!--<script type="module" src="app.js"></script>-->
-  <!--<script src="script.js" defer></script>-->
+  <script src="log-in.js" defer></script>
 
   <title>Authentication</title>
 </head>
 
-<body id="body">
+<body id="body" hidden>
   <form action="javascript:" id="log-in">
     <h1>Log In</h1>
-    <input type="text" placeholder="Username" name="username">
-    <input type="password" placeholder="Password" name="password">
-    <button onclick="location.href='account.html'">Log In</button>
+    <input type="text" placeholder="Username" name="username" autocomplete="off">
+    <input TYPE="TEXT" type="password" placeholder="Password" name="password">
+    <button>Log In</button>
     <p>Don't have an account? <a href="register.html">Register</a></p>
   </form>
 </body>
