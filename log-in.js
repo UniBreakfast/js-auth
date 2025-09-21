@@ -20,7 +20,7 @@ function prepareForm() {
 
 function handleSubmit() {
   const username = this.username.value.trim().toLowerCase();
-  const password = this.password.value;
+  const password = this.password.value.trim();
 
   if (!checkUser(username, password)) {
     return alert("Invalid username or password.");
