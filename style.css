@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  text-align: center;
+  align-content: center;
+  height: 100dvh;
+}
+
+form {
+  display: inline grid;
+  gap: 10px;
+}
